@@ -72,7 +72,14 @@ export default function App() {
           <div className="grid">
             {results.map((dest) => (
               <div key={dest.id} className="card">
-                <img src={dest.image} alt={dest.city} />
+                <img
+                  src={dest.image}
+                  alt={dest.city}
+                  onError={(e) => {
+                    e.target.src =
+                      "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1000&auto=format&fit=crop";
+                  }}
+                />{" "}
                 <div className="card-info">
                   <h3>{dest.city}</h3>
                   <p style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>

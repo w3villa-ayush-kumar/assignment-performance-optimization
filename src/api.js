@@ -6,54 +6,53 @@ const MOCK_DATA = [
     city: "Kyoto",
     desc: "Ancient Temples & Zen Gardens",
     image:
-      "https://cdn.pixabay.com/photo/2019/04/14/10/20/japan-4126483_1280.jpg",
+      "https://pixabay.com/get/g74996928e08544f8f4139893d5f3088b68832a838507204439f029013c8f8510f27c813be60233488f2f986299b66236_1280.jpg",
   },
   {
     id: 2,
-    city: "Reykjavik",
+    city: "Iceland",
     desc: "Northern Lights & Glaciers",
-    image:
-      "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg",
+    image: "https://images.pexels.com/photos/3617500/pexels-photo-3617500.jpeg", // Using Pexels for extra stability
   },
   {
     id: 3,
     city: "Rome",
     desc: "The Eternal City & Colosseum",
     image:
-      "https://cdn.pixabay.com/photo/2019/10/06/13/21/italy-4530089_1280.jpg",
+      "https://cdn.pixabay.com/photo/2018/07/20/14/02/rome-3550739_1280.jpg",
   },
   {
     id: 4,
     city: "Cape Town",
     desc: "Table Mountain & Coastal Views",
     image:
-      "https://cdn.pixabay.com/photo/2017/07/11/09/17/mountains-2492896_1280.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/02/16/09/cape-town-1792040_1280.jpg",
   },
   {
     id: 5,
     city: "Jaipur",
     desc: "The Pink City & Royal Palaces",
     image:
-      "https://cdn.pixabay.com/photo/2020/02/02/16/58/hawa-mahal-4813551_1280.jpg",
+      "https://cdn.pixabay.com/photo/2021/04/06/11/22/hawa-mahal-6156123_1280.jpg",
   },
   {
     id: 6,
     city: "Santorini",
     desc: "White Houses & Blue Domes",
     image:
-      "https://cdn.pixabay.com/photo/2017/01/31/14/31/village-2024623_1280.jpg",
+      "https://cdn.pixabay.com/photo/2016/09/01/18/16/santorini-1636834_1280.jpg",
   },
   {
     id: 7,
-    city: "New York City",
-    desc: "Times Square & Skyscrapers",
+    city: "New York",
+    desc: "Manhattan Skyscrapers",
     image:
       "https://cdn.pixabay.com/photo/2014/05/03/01/03/manhattan-336691_1280.jpg",
   },
   {
     id: 8,
     city: "Bali",
-    desc: "Tropical Paradise & Rice Terraces",
+    desc: "Tropical Paradise & Temples",
     image:
       "https://cdn.pixabay.com/photo/2017/02/14/08/51/bali-2065363_1280.jpg",
   },
